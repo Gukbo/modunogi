@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+.headerWrapper {
+  margin-top: 2vh;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  height: 10vh;
+}
+
+.logoDiv {
+}
+
+.headerLogo {
+  margin-left: 4vw;
+  font-size: 44px;
+  text-decoration: none;
+  color: var(--bold-orange);
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navContainer {
+  justify-content: start;
+}
+
+.navP {
+  font-size: 34px;
+  margin-left: 10vw;
+  text-decoration: none;
+  color: var(--main-black);
+}
+
+.a:hover {
+  cursor: pointer;
+}
